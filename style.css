@@ -3,6 +3,7 @@
   padding: 0;
   border: 0;
   font-size: 100%;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .input-text {
@@ -13,4 +14,28 @@
     border: 1px solid black;
     border-radius: 3px;
     cursor: pointer;
+}
+
+.button {
+  border: 1px solid black;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.button-del {
+  background-color: red;
+}
+
+.buton-done {
+  background-color: greenyellow;
+}
+
+.display-flex-between {
+  margin: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+input{
+  border: 1px solid black;
 }
